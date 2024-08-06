@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 2.5rem;
+  }
+  
+  #footer-div {
+    display: grid;
+    gap: 2rem; /* Reduced gap for smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding: 2.5rem;
+  }
+  
+  footer li {
+    list-style: none;
+    color: #272d38;
+    line-height: 2rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  
+  span {
+    font-family: Inter;
+    color: #272d38;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  footer p {
+    color: #272d38;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 5rem; /* Adjust this for mobile */
+    text-transform: capitalize;
+  }
+  
+  .last-footer-items {
+    display: grid;
+    grid-column: 1 / -1; /* Full width */
+    justify-content: center;
+  }
+  
+  section {
+    border-radius: 20px;
+    background: #F6F6F6;
+    margin: 5% auto;
+    margin-inline: 5%; /* Reduced margin for better responsiveness */
+    padding: 1.5rem; /* Added padding for content */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    footer {
+      padding: 1.5rem; /* Adjust padding for smaller screens */
+    }
+  
+    #footer-div {
+      gap: 1rem; /* Further reduce gap for smaller screens */
+    }
+  
+    footer p {
+      font-size: 1rem; /* Adjust font size for mobile */
+      line-height: 1.5rem; /* Adjust line height */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #footer-div {
+      grid-template-columns: 1fr; /* Stack items on very small screens */
+    }
+  
+    footer p {
+      font-size: 0.9rem; /* Further adjust font size */
+      line-height: 1.2rem; /* Adjust line height */
+    }
+  }
+  
