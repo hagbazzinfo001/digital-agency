@@ -407,8 +407,8 @@ margin-inline: auto;
       margin: auto;
     }
     svg{
-      width: 4rem;
-      height: 2rem;
+      width: 20%;
+      /* height: 1rem; */
       flex-shrink: 0;
     }
   }
