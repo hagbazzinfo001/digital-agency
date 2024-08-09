@@ -5,7 +5,7 @@
 }
 footer {
   width: 100%;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   padding: 2.5rem;
   }
 #footer-div {
@@ -31,6 +31,7 @@ span {
   font-size: 1rem;
   font-weight: 300;
   text-align: center;
+
 }
 footer p {
   color: #272d38;
@@ -388,8 +389,8 @@ margin-inline: auto;
   }
   @media (max-width: 480px) {
     #Social {
-      width: 16rem;
-      height: 3rem;
+      width: 20rem;
+      height: 6rem;
       flex-shrink: 0;
       display: flex;
       justify-content: center;
@@ -397,8 +398,8 @@ margin-inline: auto;
       margin-inline: auto;
     }
     #social-items{
-      width: 14rem;
-      height: 1.4rem;
+      width: 18rem;
+      height: 1.8rem;
       flex-shrink: 0;
       justify-content: space-between;
       align-items: center;
@@ -406,8 +407,8 @@ margin-inline: auto;
       margin: auto;
     }
     svg{
-      width: 2rem;
-      height: 1rem;
+      width: 4rem;
+      height: 2rem;
       flex-shrink: 0;
     }
   }
