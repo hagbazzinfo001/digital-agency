@@ -7,7 +7,7 @@ footer {
   width: 100%;
   background-color: #f6f6f6;
   padding: 2.5rem;
-}
+  }
 #footer-div {
   display: grid;
   gap: 8rem;
@@ -350,7 +350,7 @@ main section {
 }
 body {
   background: #fdfcfc;
-}
+  }
   @media (max-width: 480px) {
     .fsection-img {
      height: 19.75rem;
@@ -364,6 +364,108 @@ body {
      gap: 0.2rem; 
   }
 }
+#Social{
+  border-radius: 8px;
+background: #F6F6F6;
+width: 45.188rem;
+height: 5.4rem;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-inline: auto;
+}
+#social-items{
+  display: flex;
+  width: 42.188rem;
+  height: 2.375;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-shrink: 0;
+  margin: auto;
+  /* padding-block: 1rem; */
+  /* margin: 1rem; */
+  }
+  @media (max-width: 480px) {
+    #Social {
+      width: 16rem;
+      height: 3rem;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-inline: auto;
+    }
+    #social-items{
+      width: 14rem;
+      height: 1.4rem;
+      flex-shrink: 0;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      margin: auto;
+    }
+    svg{
+      width: 2rem;
+      height: 1rem;
+      flex-shrink: 0;
+    }
+  }
+  .first-div-img{
+    background: url("business-people-discussing-business-idea.png") 50% / contain no-repeat;
+  }
+            
+  #para-top{
+        color: #667085;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+    text-align: center;
+    margin: 1rem;
 
+  }
+   #nav-list{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 29rem; 
+  }
+  #nav-div{
+    color: #272D38;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+     text-transform: uppercase;
+  } 
+  nav{
+     display: flex;
+     flex-direction: row;
+      justify-content: space-evenly;
+       margin: 3rem;
+      margin-bottom: 6rem;
 
+  }
+  #header-main{
+    background: url("Ellipse\ 2.svg") 50% / cover no-repeat;
+    padding-block: 2rem;
+    width: 100%;
+
+  }
+  
+  #main-div{
+    background: url("Ellipse\ 3.svg" ) 50% / cover no-repeat;
+    padding-block: 1rem;
+    width: 100%;
+  } 
+  @media (max-width: 480px) {
+    .first-div-img{
+    background: url("business-people-discussing-business-idea.png") 50% / contain   no-repeat;
+  border-radius: 20px;
+  height: 30rem;
+    }
+  }
   
