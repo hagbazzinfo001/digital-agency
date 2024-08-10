@@ -498,7 +498,7 @@ margin-inline: auto;
     position: fixed;
     top: 0;
     right: 0;
-    height: 35vh;
+    height: 100vh;
     width: 200px;
     z-index: 999;
     background-color: white;
