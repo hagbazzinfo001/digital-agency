@@ -441,14 +441,18 @@ margin-inline: auto;
     font-style: normal;
     font-weight: 700;
      text-transform: uppercase;
+     padding-inline: 3rem;
   } 
   nav{
      display: flex;
      flex-direction: row;
-      justify-content: space-evenly;
-       margin: 3rem;
+      justify-content: space-between;
+       margin: 1rem;
       margin-bottom: 6rem;
 
+  }
+  .menu-bottom{
+    display: none;
   }
   #header-main{
     background: url("Ellipse\ 2.svg") 50% / cover no-repeat;
@@ -469,4 +473,83 @@ margin-inline: auto;
   height: 30rem;
     }
   }
+  /* small screen */
+  nav ul{
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  ul li{
+    height: 50px;
+  }
+  nav a{
+    height: 100%;
+    padding:0 30px;
+    display: flex;
+    align-items: center;
+    color: #272D38;
+    text-decoration: none;
+
+  }
+   .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 30vh;
+    width: 200px;
+    z-index: 999;
+    background-color: white;
+    /* backdrop-filter: blur(10px); */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   }
+   .sidebar li{
+    width: 100%;
+   }
+   .sidebar a{
+    width: 100%;
+   }
+   @media (max-width: 800px) {
+     .hideOnMobile{
+      display: none;
+     }
+     .menu-bottom{
+      display: block;
+     }
+     #nav-div{
+      color: #272D38;
+      font-family: Inter;
+      font-size: 1rem;
+       font-weight: 700;
+       text-transform: uppercase;
+       width: 70rem;
+       padding-inline:1rem ;
+    } 
+    nav{
+      display: flex;
+      flex-direction: row;
+       /* justify-content: space-between; */
+        margin: 2rem;
+       margin-bottom: 6rem;
+       /* gap: 60%; */
+  }
+  #nav-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   
+    /* width: 29rem;  */
+}     
+  }
+  @media (min-width: 800px) {
+   #nav list :last-child{
+     display: none;
+    }
+  }
